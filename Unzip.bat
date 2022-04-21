@@ -11,6 +11,6 @@ if /I "%c%" EQU "N" goto :exit
 ::Extract if Y
 :extract
 cd C:\Program Files\7-Zip
-7z x "F:\Zips\*.zip" -o"F:\Zips\Unzip" -aou
+7z x "ZIPDIRECTORY*.zip" -o"UNZIPDIRECTORY" -aou
 Echo **Extract Completed**
 pause
